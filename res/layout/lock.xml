@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:gravity="center_horizontal"
+        android:text="商议"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#302F4F4F"
+        android:editable="false"
+        android:gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="c"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bt_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="o"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bt_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="n"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bt_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="n"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="f"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bt_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="e"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bt_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="r"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bt_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#302F4F4F"
+            android:text="r"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="#302F4F4F"
+            android:text="解锁"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
